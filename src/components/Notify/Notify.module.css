@@ -1,0 +1,17 @@
+.notify {
+  min-width: 150px;
+  border-radius: 4px;
+  padding: 10px 25px;
+  box-shadow: 0 4px 4px rgba(224, 70, 70, 0.15);
+  opacity: 1;
+  transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  color: #e26d6d;
+  background-color: #fff;
+  border: 1px solid #e26d6d;
+  text-align: center;
+  margin-top: 20px;
+}

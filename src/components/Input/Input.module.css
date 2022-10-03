@@ -1,0 +1,23 @@
+.block {
+  display: block;
+  margin-bottom: 15px;
+}
+.label {
+  display: block;
+  color: #333232;
+  margin-bottom: 5px;
+}
+
+.input {
+  display: block;
+  padding: 11px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  line-height: normal;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
+}
+.input:focus,
+.input:active {
+  outline-color: #b69e80;
+}

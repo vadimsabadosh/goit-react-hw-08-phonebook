@@ -1,0 +1,28 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 100px;
+}
+.link {
+  min-width: 150px;
+  height: 40px;
+  border: 0 solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 15%);
+  opacity: 1;
+  transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background-color: #b69e80;
+}
+.link:hover {
+  background-color: #4b3111;
+  color: #fff;
+}
